@@ -1,70 +1,70 @@
-# Form builder
+# Getting Started with Create React App
 
-This is a form builder application, By using this, users can create dynamic forms like google forms.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Tech/Framework used
-- React with Javascript
-- Redux and Redux-saga
-- Node with Express
+## Available Scripts
 
-## Features
+In the project directory, you can run:
 
-* On Create form page, there is a **Add Question** button and textbox to fill form name/title
-* On Click of **Add Question** button, the modal popup opens with the below fields
-    - Enter question (Textbox)
-    - Select the answer type (Dropdown with options - Text, Checkbox and Radio)
-        * If answer type is either Checkbox or Radio, then the text area will appear to enter each choice in
-separate lines.
-    - Add and Cancel button
-   
-![add_question_popup](https://user-images.githubusercontent.com/22043817/155842884-30a60eee-7a1b-45fb-b7f3-2c6bed0c06f4.png)
+### `npm start`
 
-- On click of Add Button, the question is added to the form.
-- After **saving the form**, the slug or unique URL for the form is generated
-- On **Listing Page**, there are list of all the forms created with below fields
-    - Form Name
-    - Form URL
-    - Created At (Date and Time)
-    - Total Responses
-    
-![listing_page](https://user-images.githubusercontent.com/22043817/155842912-00809eb6-2722-4f0c-9524-7ef6a16eaaae.png)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- On the click of the URL, user can submit their response
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-![submit_response](https://user-images.githubusercontent.com/22043817/155842983-0c701ca0-11a4-4478-aadb-6d6c596f2306.png)
+### `npm test`
 
-- Form data and Responses are stored in the `forms.json` and `responses.json` files respectively, located inside `/backend/data` folder
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Installation
+### `npm run build`
 
-To install dependencies for frontend and backend, follow below steps.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-#### backend
-```
-cd backend
-npm install
-```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-#### frontend
-```
-cd frontend
-npm install
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## How to start
+### `npm run eject`
 
-To start the project, you need to start `backend` as well as `frontend`.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-**Open Terminal:**
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-In first tab (backend):
-```sh
-cd backend
-npm start
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-In second tab (frontend):
-```sh
-cd frontend
-npm start
-```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
